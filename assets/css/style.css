@@ -1,0 +1,12 @@
+@import url(../css/header.css);
+
+:root {
+  --cor-de-fundo: #EBECEE;
+  --branco: #FFFFFF;
+  --fonte: 'Poppins', 'sans-serif';
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte);
+}
