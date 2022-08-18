@@ -12,7 +12,10 @@
   --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
   --preto: #000000;
   --azul: #002F52;
+  --cinza-claro: #858585;
+  --cinza-escuro: #474646;
   --fonte: 'Poppins', 'sans-serif';
+  --fonte-titulo: 'Josefin Sans', 'sans-serif';
 }
 
 body {

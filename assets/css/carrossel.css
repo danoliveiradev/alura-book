@@ -26,9 +26,7 @@
 }
 
 .card {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3fr 1fr;
+  display: flex;
   margin: 1rem;
   padding: 1rem;
   background-color: var(--branco);
@@ -37,9 +35,9 @@
 }
 
 .card__descricao {
-  grid-column: 1;
   align-items: center;
   line-height: 20px;
+  margin-right: 1rem;
 }
 
 .descricao__titulo {
@@ -51,33 +49,59 @@
   font-weight: 700;
   color: var(--azul);
   font-size: 18px;
-  margin: .5rem 0;
+  margin: 1rem 0;
 }
 
 .descricao__texto-descritivo {
   font-size: 14px;
 }
 
-.descricao__img {
-  grid-column: 2;
-}
-
 .card__links {
-  grid-row: span 2;
   margin-top: 1rem;
 }
 
 .link__item {
-  margin: 0 .5rem;
+  margin: 1rem .5rem;
 }
 
 .link__ancora {
+  display: block;
   background-color: var(--laranja);
   color: var(--branco);
   font-weight: 700;
-  padding: 1.5rem 2.1rem;
+  text-align: center;
+  justify-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
 }
 
 .descricao__estrelas {
   padding-bottom: .5rem;
+}
+
+@media screen and (min-width: 1024px){
+
+
+  .carrossel__titulo {
+    font-size: 26px;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-pagination {
+    margin: 1rem 0;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 2rem auto;
+  }  
 }
