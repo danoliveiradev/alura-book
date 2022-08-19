@@ -5,7 +5,7 @@
   text-transform: uppercase;
   text-align: center;
   background-color: var(--branco);
-  padding: 1rem 0 .5rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .swiper-slide img{
@@ -27,7 +27,7 @@
 
 .card {
   display: flex;
-  margin: 1rem;
+  margin: 1em;
   padding: 1rem;
   background-color: var(--branco);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -103,4 +103,33 @@
     width: 40%;
     margin: 2rem auto;
   }  
+}
+
+@media screen and (min-width: 1728px) {
+
+  .carrossel__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+  }
+
+  .carrossel__titulo {
+    font-size: 32px;
+  }
+
+  .swiper {
+    width: 35%;
+    margin: 0;
+  }
+
+  .descricao__titulo {
+    font-size: 32px;
+    line-height: 3rem;
+  }
+
+  .card {
+    width: 35%;
+    margin: 0 3rem;
+  }
 }
