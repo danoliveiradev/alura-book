@@ -6,7 +6,7 @@
 
 .container {
   background: var(--azul-degrade);
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .topicos__titulo {
@@ -48,4 +48,16 @@
   .topicos__link {
     font-size: 24px;
   }
+}
+
+@media screen and (min-width: 1728px){ 
+
+  .topicos__lista {
+    padding: 1rem 24vw;
+  }
+
+  .topicos__titulo {
+    font-size: 32px;
+  }
+
 }

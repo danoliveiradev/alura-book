@@ -28,12 +28,10 @@
 .banner__pesquisa::placeholder {
   font-size: 14px;
   color: var(--branco);
-  text-align: center;
   background-image: url('../img/Pesquisa.svg');
   background-repeat: no-repeat;
-  background: relative;
-  background-position: 2rem;
-  height: 100%;
+  background-position: 1rem;
+  padding-left: 3rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -48,6 +46,10 @@
 }
 
 @media screen and (min-width: 1728px) {
+
+  .banner {
+    padding: 5rem 0;
+  }
 
   .banner__pesquisa {
     width: 40%;

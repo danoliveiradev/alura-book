@@ -16,7 +16,7 @@ hr {
   .rodape {
     display: flex;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding: 2rem;
     align-items: top;
   }
 
@@ -47,5 +47,25 @@ hr {
 
   .rodape__link {
     margin-left: .4rem;
+  }
+
+  .rodape__link:hover {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .rodape {
+    padding: 3rem;
+  }
+
+  .rodape-lista {
+    border-left: 1px solid var(--cinza-claro);
+    padding-left: 1rem;
   }
 }
