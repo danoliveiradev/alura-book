@@ -8,7 +8,15 @@
 Projeto desenvolvido no curso de formação em HTML e CSS da [Alura](https://www.alura.com.br/), cujo objetivo era desenvolver o site de livros Alura Book, para exercitar responsividade em diferentes plataformas, para tal a página foi desenvolvida para atender a três tamanhos de telas diferentes (mobile, tablet e desktop).
 
 <p align="center">
-  <img src=""/>
+  <img src="assets/captura/AluraBooks_728px.gif"><br><sub>Telas Mobile</sub>
+</p>
+
+<p align="center">
+  <img src="assets/captura/AluraBooks_1024px.gif"><br><sub>Telas Tablet</sub>
+</p>
+
+<p align="center">
+  <img src="assets/captura/AluraBooks_1728px.gif"><br><sub>Telas Desktop</sub>
 </p>
 
 ## 📂 **Acesso ao projeto**
